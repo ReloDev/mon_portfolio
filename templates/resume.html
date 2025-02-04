@@ -1,0 +1,297 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Personal - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-light">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Aurel Ayena</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a href="{% url 'index' %}" type="button" class="btn btn-outline-primary">Home</a></li>
+                            <li class="nav-item"><a href="{% url 'resume' %}" type="button" class="btn btn-outline-primary">Resume</a></li>
+                            <li class="nav-item"><a href="{% url 'projects' %}" type="button" class="btn btn-outline-primary">Projects</a></li>
+                            <li class="nav-item"> <a href="{% url 'contact' %}" type="button" class="btn btn-outline-primary">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+            <div class="container px-5 my-5">
+
+          
+
+                <div class="text-center mb-5">
+                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Experience Section-->
+                        <section>
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h2 class="text-primary fw-bolder mb-0">Expérience</h2>
+                                <a class="btn btn-primary px-4 py-3" href="cv.html">Voir le CV</a>
+                            </div>
+                            
+                            <!-- Experience Card 1 -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">Mars 2024 - Présent</div>
+                                                <div class="small fw-bolder">Développeur BACKEND LARAVEL</div>
+                                                <div class="small text-muted">NIYIEXPERTISE</div>
+                                                <div class="small text-muted">Cotonou, BENIN</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Développement et maintenance d'applications web sécurisées avec Laravel.</li>
+                                                <li>Optimisation des bases de données PostgreSQL et MySQL.</li>
+                                                <li>Encadrement d’un stagiaire en développement backend.</li>
+                                                <li>Développement d'API RESTful documentées avec Swagger.</li>
+                                                <li>Intégration des API KKIAPAY et FEDAPAY pour le paiement.</li>
+                                                <li>Connexion avec des services externes comme Google Auth.</li>
+                                                <li>Modélisation UML pour l’architecture des systèmes.</li>
+                                                <li>Travail collaboratif en Agile et gestion de version avec GitHub.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Experience Card 2 -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">Novembre 2023 - Février 2024</div>
+                                                <div class="small fw-bolder">Développeur Web | Stagiaire</div>
+                                                <div class="small text-muted">GROUPE OMMAX-KN</div>
+                                                <div class="small text-muted">St Michel, BENIN</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Développement backend avec Laravel et frontend avec Bootstrap.</li>
+                                                <li>Gestion de bases de données avec MySQL.</li>
+                                                <li>Conception UML pour le diagramme de l'application.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Experience Card 3 -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">Juin 2023 - Septembre 2023</div>
+                                                <div class="small fw-bolder">Assistant Technicien Réseau | Stagiaire</div>
+                                                <div class="small text-muted">Comtel Technologies</div>
+                                                <div class="small text-muted">Cadjehoun, BENIN</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Orientation et configuration des caméras de surveillance.</li>
+                                                <li>Brassage et sertissage des câbles réseau RJ45.</li>
+                                                <li>Installation et paramétrage des équipements réseau.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Experience Card 4 -->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-primary fw-bolder mb-2">Août 2022 - Octobre 2022</div>
+                                                <div class="small fw-bolder">Développeur Web | Stagiaire</div>
+                                                <div class="small text-muted">ROMAS-TECHNOLOGIE</div>
+                                                <div class="small text-muted">Ste Rita, BENIN</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <ul>
+                                                <li>Initiation à Laravel, jQuery et Bootstrap.</li>
+                                                <li>Participation aux projets en tant que développeur junior.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        {% comment %} <!-- Projects Section -->
+                        <section>
+                            <h2 class="text-primary fw-bolder mb-4">Projets Réalisés</h2>
+                            <ul>
+                                <li>
+                                    <strong>Quotidishop</strong> - Plateforme e-commerce | 
+                                    <a href="https://www.quotidishop.com/" target="_blank">Lien du site</a>
+                                    <ul>
+                                        <li>Développement backend avec Laravel.</li>
+                                        <li>Gestion des utilisateurs, produits et transactions.</li>
+                                        <li>Intégration des paiements et gestion des commandes.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Site de préproduction NIYIEXPERTISE</strong> - Plateforme de gestion interne | 
+                                    <a href="https://preproduction.niyiexpertise.com/home" target="_blank">Lien du site</a>
+                                    <ul>
+                                        <li>Développement et maintenance backend en Laravel.</li>
+                                        <li>Optimisation des performances et documentation API avec Swagger.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Autres applications en cours de développement</strong>
+                                    <ul>
+                                        <li>Développement backend d’applications web et mobiles.</li>
+                                        <li>Tests et validation des fonctionnalités.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div> {% endcomment %}
+                
+                        <!-- Education Section-->
+                        <section>
+                            <h2 class="text-secondary fw-bolder mb-4">Formation</h2>
+                            <!-- Education Card 1-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">2020 - 2023</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">Ecole Nationale d'Economie Appliquée et de Managment (ENEAM)</div>
+                                                    <div class="small text-muted">Gbégamey</div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">Licence Professionnelle</div>
+                                                    <div class="small text-muted">Administration des réseaux informatiques</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Université</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Education Card 2-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <div class="row align-items-center gx-5">
+                                        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                                            <div class="bg-light p-4 rounded-4">
+                                                <div class="text-secondary fw-bolder mb-2">2019 - 2020</div>
+                                                <div class="mb-2">
+                                                    <div class="small fw-bolder">CEG AKPAKPA CENTRE</div>
+                                                    <div class="small text-muted"></div>
+                                                </div>
+                                                <div class="fst-italic">
+                                                    <div class="small text-muted">BACCALAUREAT</div>
+                                                    <div class="small text-muted">Série D</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8"><div>Collège</div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Divider-->
+                        <div class="pb-5"></div>
+                        <!-- Skills Section-->
+                        <section>
+                            <!-- Skillset Card-->
+                            <div class="card shadow border-0 rounded-4 mb-5">
+                                <div class="card-body p-5">
+                                    <!-- Professional skills list-->
+                                    <div class="mb-5">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                                <i class="bi bi-tools"></i>
+                                            </div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Forces</span></h3>
+                                        </div>
+                                    
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col mb-4 mb-md-0">
+                                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Curieux & motivé</div>
+                                            </div>
+                                            <div class="col mb-4 mb-md-0">
+                                                <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Travaille bien en équipe</div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML & CSS & BOOTSTRAP</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PHP | FULL LARAVEL | RESTAPI LARAVEL</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PYTHON | FULL DJANGO (BASIC)</div></div>
+                                        </div>
+                                    
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JAVASCRIPT | REACT (BASIC)</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Modélisation UML</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">MYSQL & POSTGRESQL</div></div>
+                                        </div>
+                                    
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Connaissance en Typologie et topologie réseau</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Connaissance des Protocoles de communication</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Connaissance de DHCP, ARP</div></div>
+                                        </div>
+                                    
+                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Routage statique (GNS3)</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Programmation Réseau Python</div></div>
+                                        </div>
+                                    </div>
+                                    
+                                  
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        <footer class="bg-white py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static  'js/scripts.js' %}"></script>
+    </body>
+</html>
